@@ -1,0 +1,209 @@
+{
+	"id": "120281e2-ba79-c287-21b3-eb3c56a91e83",
+	"name": "Healthcare",
+	"description": "",
+	"order": [
+		"53624400-cef0-383e-a5f7-299b95d907e7",
+		"a6cb78d4-df5f-c7ab-3084-907408ccc033",
+		"15044f78-a75c-9369-6cc4-4e61ec033411",
+		"c5441852-097c-36cb-8a3f-c1c06f563ea6"
+	],
+	"folders": [],
+	"timestamp": 1469113829438,
+	"owner": 0,
+	"remoteLink": "",
+	"public": false,
+	"published": false,
+	"requests": [
+		{
+			"id": "15044f78-a75c-9369-6cc4-4e61ec033411",
+			"headers": "",
+			"url": "http://localhost/healthcare_api/patient",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "120281e2-ba79-c287-21b3-eb3c56a91e83",
+			"data": [
+				{
+					"key": "userID",
+					"value": "11",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "21",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "gender",
+					"value": "31",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "dateofbirth",
+					"value": "1991-08-7",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "address",
+					"value": "dad",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "phoneno",
+					"value": "232",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status",
+					"value": "Active",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "patientID",
+					"value": "20",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost/healthcare_api/patient",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1469114068718,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "53624400-cef0-383e-a5f7-299b95d907e7",
+			"headers": "",
+			"url": "http://localhost/healthcare_api/patient/20",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1469114039645,
+			"name": "http://localhost/healthcare_api/patient",
+			"description": "",
+			"collectionId": "120281e2-ba79-c287-21b3-eb3c56a91e83",
+			"responses": []
+		},
+		{
+			"id": "a6cb78d4-df5f-c7ab-3084-907408ccc033",
+			"headers": "",
+			"url": "http://localhost/healthcare_api/patient",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "120281e2-ba79-c287-21b3-eb3c56a91e83",
+			"data": [
+				{
+					"key": "patientID",
+					"value": "20",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost/healthcare_api/patient",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1469114059000,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "c5441852-097c-36cb-8a3f-c1c06f563ea6",
+			"headers": "",
+			"url": "http://localhost/healthcare_api/patient",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "120281e2-ba79-c287-21b3-eb3c56a91e83",
+			"data": [
+				{
+					"key": "userID",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "gender",
+					"value": "3",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "dateofbirth",
+					"value": "1991-08-7",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "address",
+					"value": "dad",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "phoneno",
+					"value": "232",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status",
+					"value": "Active",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "patientID",
+					"value": "20",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "http://localhost/healthcare_api/patient",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1469114075781,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
